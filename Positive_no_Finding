@@ -1,0 +1,12 @@
+def find_positve_no(list_no):
+    positive_no = [ num for num in list_no if num > 0 ]  
+    print(positive_no)
+
+List_no1 = [12, -7, 5, 64, -14]
+print("output :")
+find_positve_no(List_no1)
+
+
+List_no2 = [12, 14, -95, 3]
+print("output :")
+find_positve_no(List_no2)
